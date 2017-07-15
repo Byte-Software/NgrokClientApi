@@ -4,9 +4,12 @@
     "authors": [
         {
             "name": "Tobias Schulz",
-            "email": "tobias@byte.software"
+            "email": "tobias@byte.software",
+            "homepage": "https://www.byte.software",
+            "role": "Developer"
         }
     ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "ByteSoftware\\NgrokClientApi\\": "src"
