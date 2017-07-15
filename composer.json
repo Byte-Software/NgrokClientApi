@@ -1,0 +1,19 @@
+{
+    "name": "bytesoftware/ngrokclientapi",
+    "description": "An Laravel package for speaking with the ngrok client api",
+    "authors": [
+        {
+            "name": "Tobias Schulz",
+            "email": "tobias@byte.software"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ByteSoftware\\NgrokClientApi\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
