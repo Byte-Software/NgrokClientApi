@@ -16,8 +16,6 @@ class NgrokClientProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/ngrokclient.php' => config_path('ngrokclient.php')
         ], 'config');
-
-        //php artisan vendor:publish --tag=config
     }
 
     /**
