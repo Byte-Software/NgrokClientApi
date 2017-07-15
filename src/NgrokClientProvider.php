@@ -14,7 +14,7 @@ class NgrokClientProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/ngrokclient.php' => config_path('ngrokclient.php')
+            __DIR__.'/config/ngrokclient.php' => config_path('ngrokclient.php')
         ], 'config');
     }
 
